@@ -1,6 +1,5 @@
 # Spotify Connected App
 
-End product of the "Build a Spotify Connected App" newline course
 
 ## Local Installation & Set Up
 
