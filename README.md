@@ -1,5 +1,5 @@
 # Spotify Connected App
-
+![App screenshot](/client/public/og.png)
 
 ## Local Installation & Set Up
 
