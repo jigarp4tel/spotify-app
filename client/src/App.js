@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { accessToken, logout } from './spotify';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   useLocation
 } from "react-router-dom";
@@ -62,23 +62,14 @@ function App() {
             <Router>
               <ScrollToTop />
 
-              <Switch>
-                <Route path="/top-artists">
-                  <TopArtists />
-                </Route>
-                <Route path="/top-tracks">
-                  <TopTracks />
-                </Route>
-                <Route path="/playlists/:id">
-                  <Playlist />
-                </Route>
-                <Route path="/playlists">
-                  <Playlists />
-                </Route>
-                <Route path="/">
-                  <Profile />
-                </Route>
-              </Switch>
+              <Routes>
+                <Route path="/" element={<Profile />} />
+                <Route path="/top-artists" element={<TopArtists />} />
+                <Route path="/top-tracks" element={<TopTracks />} />
+                <Route path="/playlists/:id" element={<Playlist />} />
+                <Route path="/playlists" element={<Playlists />} />
+
+              </Routes>
             </Router>
           </>
         )}

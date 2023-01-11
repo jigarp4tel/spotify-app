@@ -93,8 +93,6 @@ const Playlist = () => {
         });
     }, [tracks, audioFeatures]);
 
-    console.log(tracksWithAudioFeatures);
-
 
     // Sort tracks by audio feature to be used in template
     const sortedTracks = useMemo(() => {

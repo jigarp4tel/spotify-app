@@ -22,12 +22,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",    
-    "dotenv": "^10.0.0",
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "concurrently": "^6.4.0"
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.15"
   }
 }
