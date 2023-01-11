@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^14.4.3",
     "ansi-html": "^0.0.9",
     "async": "^3.2.3",
+    "axios": "^1.2.2",
     "babel-plugin-macros": "^3.1.0",
     "browserslist": "^4.20.2",
     "glob-parent": "^6.0.2",
