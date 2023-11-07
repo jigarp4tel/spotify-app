@@ -27,7 +27,7 @@ const StyledLoginButton = styled.a`
 const LOGIN_URI =
   process.env.NODE_ENV !== 'production'
     ? 'http://localhost:8888/login'
-    : 'https://jigarp4tel-spotify-app.up.railway.app/login';
+    : 'https://main.d3svoupzqavcu0.amplifyapp.com/login';
 
 const Login = () => (
   <StyledLoginContainer>
