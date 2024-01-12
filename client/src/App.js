@@ -9,7 +9,7 @@ import {
 import { GlobalStyle } from './styles';
 import { Login, Profile, TopArtists, TopTracks, Playlists, Playlist } from './pages'
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 const StyledLogoutButton = styled.button`
   position: absolute;

@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components/macro';
+import styled, { keyframes } from 'styled-components';
 
 const dance = keyframes`
   from {
@@ -47,15 +47,15 @@ const StyledBar = styled.div`
 `;
 
 const Loader = () => (
-    <StyledLoader>
-        <div className="bars">
-            <StyledBar delay="250ms" />
-            <StyledBar delay="715ms" />
-            <StyledBar delay="475ms" />
-            <StyledBar delay="25ms" />
-            <StyledBar delay="190ms" />
-        </div>
-    </StyledLoader>
+  <StyledLoader>
+    <div className="bars">
+      <StyledBar delay="250ms" />
+      <StyledBar delay="715ms" />
+      <StyledBar delay="475ms" />
+      <StyledBar delay="25ms" />
+      <StyledBar delay="190ms" />
+    </div>
+  </StyledLoader>
 );
 
 export default Loader;
